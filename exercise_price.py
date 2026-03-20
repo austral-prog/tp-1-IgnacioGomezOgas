@@ -9,3 +9,13 @@ def price():
     4. El precio final (subtotal + propina)
     """
     precio_base = 100
+
+    monto_iva=precio_base*0.21
+    print(monto_iva)
+    subtotal=monto_iva+precio_base
+    print(subtotal)
+    monto_propina=.1*subtotal
+    print(monto_propina)
+    precio_final=subtotal+monto_propina
+    print(precio_final)
+price()

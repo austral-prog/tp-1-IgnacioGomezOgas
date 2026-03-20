@@ -9,3 +9,8 @@ def length():
     4. Pulgadas (1 pulgada ≈ 0.0254 m)
     """
     metros = 1000
+    print(1000/1000)
+    print(1000*1/1609.34)
+    print(1000*1/0.3048)
+    print(1000*1/0.0254)
+length()
